@@ -4,7 +4,7 @@ import TheWelcome from './components/TheWelcome.vue'
 </script>
 
 <template>
-  <main class="bg-cyan-100 m-2 p-2 h-vh w-vw">
+  <!-- <main class="bg-cyan-100 m-2 p-2 h-vh w-vw">
     <div
       class="bg-white border-slate-100 dark:bg-slate-800 dark:border-slate-500 border-b rounded-t-xl p-4 pb-6 sm:p-10 sm:pb-8 lg:p-6 xl:p-10 xl:pb-8 space-y-6 sm:space-y-8 lg:space-y-6 xl:space-y-8">
       <div class="flex items-center space-x-4">
@@ -97,9 +97,7 @@ import TheWelcome from './components/TheWelcome.vue'
     </div>
   </main>
   <main class="bg-cyan-100 m-2 p-2 h-vh w-vw">
-    <div
-      class="grid grid-cols-3 xs:grid-cols-5 sm:grid-cols-7 md:grid-cols-9 lg:grid-cols-11 xl:grid-cols-12 gap-2"
-    >
+    <div class="grid grid-cols-3 xs:grid-cols-5 sm:grid-cols-7 md:grid-cols-9 lg:grid-cols-11 xl:grid-cols-12 gap-2">
       <div class="bg-sky-50 aspect-square">1</div>
       <div class="bg-sky-100 aspect-square">2</div>
       <div class="bg-sky-200 aspect-square">3</div>
@@ -117,9 +115,38 @@ import TheWelcome from './components/TheWelcome.vue'
       <div class="bg-blue-400 aspect-square"></div>
       <div class="bg-blue-500 aspect-square"></div>
       <div class="bg-blue-600 aspect-square"></div>
-      <div class="bg-blue-700 aspect-square"></div>
-      <div class="bg-blue-800 aspect-square"></div>
-      <div class="bg-blue-900 aspect-square"></div>
-    </div>
+          <div class="bg-blue-700 aspect-square"></div>
+          <div class="bg-blue-800 aspect-square"></div>
+          <div class="bg-blue-900 aspect-square"></div>
+        </div>
+      </main> -->
+  <main class="m-2 p-4 h-vh w-vw">
+    <ul class="list-decimal flex flex-col space-y-4">
+      <li>
+        <div class="w-32 h-32 py-8 pl-8 pr-4 m-4 border-[0.8px] rounded-2xl">
+        </div>
+      </li>
+      <li>
+        <div class="bg-emerald-200 text-red-500 w-fit px-5">
+          text
+        </div>
+      </li>
+      <li>
+        <button class="bg-sky-500 hover:bg-sky-700 rounded-full w-40 px-3 py-2 text-white">
+          Save changes
+        </button>
+      </li>
+      <li>
+        <button
+          class="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-red-600 rounded-full w-40 px-3 py-2">
+          Button
+        </button>
+      </li>
+      <li class="flex justify-center">
+        <button class="bg-orange-300 w-fit px-5 md:bg-lime-300 lg:bg-green-300 xl:bg-sky-300">
+          Button
+        </button>
+      </li>
+    </ul>
   </main>
 </template>
