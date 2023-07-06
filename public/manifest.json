@@ -1,0 +1,26 @@
+{
+    "name": "EJ's Web",
+    "short_name": "EJ's Web",
+    "theme_color": "#98c1d9",
+    "background_color": "#98c1d9",
+    "display": "fullscreen",
+    "scope": "https://vercel-test-rho-three.vercel.app/",
+    "start_url": "https://vercel-test-rho-three.vercel.app/",
+    "icons": [
+        {
+          "src": "shiba128.png",
+          "type": "image/png",
+          "sizes": "128x128"
+        },
+        {
+          "src": "shiba64.png",
+          "type": "image/png",
+          "sizes": "64x64"
+        },
+        {
+          "src": "shiba32.png",
+          "type": "image/png",
+          "sizes": "32x32"
+        }
+      ]
+  }
